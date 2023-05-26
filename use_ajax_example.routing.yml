@@ -1,0 +1,16 @@
+use_ajax_example.link_page:
+  path: '/use-ajax-example/link_page'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\use_ajax_example\Controller\UseAjaxExampleController::buildLinkPage'
+  requirements:
+    _permission: 'access content'
+
+use_ajax_example.content_page:
+  path: '/use-ajax-example/content_page'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\use_ajax_example\Controller\UseAjaxExampleController::buildContentPage'
+  requirements:
+    _permission: 'access content'
+

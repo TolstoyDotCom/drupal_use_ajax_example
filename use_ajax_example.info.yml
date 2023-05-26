@@ -1,0 +1,5 @@
+name: use_ajax_example
+type: module
+description: Show silent error
+package: Custom
+core_version_requirement: ^9 || ^10
